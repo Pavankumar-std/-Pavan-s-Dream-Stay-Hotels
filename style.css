@@ -84,3 +84,16 @@ footer p {
 footer p:hover {
     color: #3498db;
 }
+@media (max-width:768px){
+
+.category-container{
+flex-direction:column;
+align-items:center;
+}
+
+.category img{
+width:200px;
+height:200px;
+}
+
+}
